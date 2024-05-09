@@ -1,16 +1,18 @@
 {{ define "main" }}
 			<section class="hero">
-				<div class="container">	
+				<div class="container">
 					<div class="hero-inner">
 						<div class="hero-copy">
 							<h1 class="hero-title h2-mobile mt-0 is-revealing">{{ .Site.Params.Content.LeadTitle | markdownify }}</h1>
-							<p class="hero-paragraph is-revealing">{{ .Site.Params.Content.LeadDescription | markdownify }}</p>
+							<p class="hero-paragraph is-revealing">{{ .Site.Params.Content.LeadDescription1 | markdownify }}</p>
+							<p class="hero-paragraph is-revealing">{{ .Site.Params.Content.LeadDescription2 | markdownify }}</p>
 							{{ if .Site.Params.Content.ButtonCaption }}
 							<p class="hero-cta is-revealing"><a class="button button-primary button-shadow" href="{{ .Site.Params.Content.ButtonURL}}">{{ .Site.Params.Content.ButtonCaption | markdownify }}</a></p>
-							{{ end }}							
+							{{ end }}
 						</div>
 						<div class="hero-illustration is-revealing">
-							<svg width="528" height="413" viewBox="0 0 528 413" xmlns="http://www.w3.org/2000/svg">
+							<img src="{{ .Site.Params.Content.HeroImage }}">
+							<!-- <svg width="528" height="413" viewBox="0 0 528 413" xmlns="http://www.w3.org/2000/svg">
 							<defs>
 								<linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="hero-illustration-a">
 									<stop stop-color="#A7FDE8" stop-opacity="0" offset="0%"/>
@@ -69,7 +71,7 @@
 								<path fill="#F6F8FA" d="M24 248l88 88H24z"/>
 								<rect fill="url(#hero-illustration-d)" x="335" y="242" width="32" height="32" rx="16"/>
 							</g>
-						</svg>
+						</svg> -->
 						</div>
 					</div>
 				</div>
@@ -95,7 +97,7 @@
 				</div>
 			</section>
 			<section class="section text-center">
-				<p class="hero-cta is-revealing"><a class="button button-primary button-shadow" href="{{ .Site.Params.Content.ButtonURL}}">Email us for Product Catalogs</a></p>
+				<p class="hero-cta is-revealing"><a class="button button-primary button-shadow" href="{{ .Site.Params.Content.ButtonURL}}">{{ .Site.Params.Content.FooterButtonCaption | markdownify }}</a></p>
 			</section>
 			<!-- <section class="pricing section">
 				<div class="section-square"></div>
@@ -120,7 +122,7 @@
                                                     </svg>
                                                 </span>
                                                 <span>{{ .Description }}</span>
-                                            </li>    
+                                            </li>
 											{{ end }}
                                         </ul>
                                     </div>
@@ -128,7 +130,7 @@
                                         <a class="button button-primary button-shadow button-block" href="#">{{ .ButtonCaption }}</a>
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
 							{{ end }}
                         </div>
                     </div>

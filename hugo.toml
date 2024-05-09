@@ -35,10 +35,13 @@ theme = 'agnes'
 # 	FacebookURL = "https://facebook.com/podbharati"
 
 [params.content]
-	LeadTitle = "Top Quality Centrifugal Pumps for various uses"
-	LeadDescription = "Entity Hydrodynamics has been serving over 500 businesses — in India and overseas — for 25+ years."
-	ButtonCaption = "Email us to discuss your requirement"
+	LeadTitle = "Top Quality Centrifugal Pumps"
+	HeroImage = "images/hero-image.png"
+	LeadDescription1 = "Entity Hydrodynamics has been serving over 500 businesses — in India and overseas — for 25+ years."
+	LeadDescription2 = "Offering end-to-end services: starting with pump design, manufacturing, testing, delivery and installation to match your project requirements."
+	ButtonCaption = "Email us for a free consultation for your project"
 	ButtonURL = "mailto:inbox@entitypumps.com"
+	FooterButtonCaption = "Email us for Product Catalogs"
 
 ################### Feature Columns (do not exceed 4) ####################
 
