@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://entitypumps.com/'
+languageCode = 'en-gb'
+title = 'Entity Pumps by Entity Hydrodynamics'
 theme = 'agnes'
