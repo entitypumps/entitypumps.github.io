@@ -2,3 +2,123 @@ baseURL = 'https://entitypumps.com/'
 languageCode = 'en-gb'
 title = 'Entity Pumps by Entity Hydrodynamics'
 theme = 'agnes'
+
+[params]
+	dateFormat = "Jan 2, 2023"
+	authorName = "Entity Hydrodynamics"
+	google_analytics_id = "GA-"
+
+# [menu]
+# 	[[menu.main]]
+# 		Name = "Contact"
+# 		URL = "#"
+# 		weight = 1
+
+# 	[[menu.main]]
+# 		Name = "About us"
+# 		URL = "#"
+# 		weight = 2
+
+# 	[[menu.main]]
+# 		Name = "FAQ's"
+# 		URL = "#"
+# 		weight = 3
+
+# 	[[menu.main]]
+# 		Name = "Support"
+# 		URL = "#"
+# 		weight = 4
+
+# [params.social]
+# 	TwitterURL = "https://twitter.com/podbharati"
+# 	GoogleURL = "http://google.com"
+# 	FacebookURL = "https://facebook.com/podbharati"
+
+[params.content]
+	LeadTitle = "Top Quality Centrifugal Pumps for various uses"
+	LeadDescription = "Entity Hydrodynamics has been serving over 500 businesses — in India and overseas — for 25+ years."
+	ButtonCaption = "Email us to discuss your requirement"
+	ButtonURL = "mailto:inbox@entitypumps.com"
+
+################### Feature Columns (do not exceed 4) ####################
+
+[[params.feature]]
+	FeatureTitle = "Self-aligned flange-mounted pumps"
+	FeatureDescription = "Ideal for handling aggressive and explosive liquids such as chlorides, dyes, sulphides, alkalis, and phosphates."
+	FeatureImage = "images/self-aligned-flange-mounted-pumps.png"
+
+[[params.feature]]
+	FeatureTitle = "Non-clog pumps"
+	FeatureDescription = "Ideal for pumping slurries or liquids containing fibrous material."
+	FeatureImage = "images/non-clog-pumps.png"
+
+[[params.feature]]
+	FeatureTitle = "Self-priming pumps"
+	FeatureDescription = "Pumps muddy water, sea water, effluents, and solvents."
+	FeatureImage = "images/self-priming-pumps.png"
+
+[[params.feature]]
+	FeatureTitle = "Air-cooled thermic fluid pumps"
+	FeatureDescription = "Designed to withstand all kinds of heat transfer fluids over 100°C."
+	FeatureImage = "images/air-cooled-thermic-fluid-pumps.png"
+
+[[params.feature]]
+	FeatureTitle = "Submerged non-clog pumps"
+	FeatureDescription = "For handling sewage, slurry, viscous liquids, unscreened juice, and textile slurries."
+	FeatureImage = "images/submerged-non-clog-pumps.png"
+
+[[params.feature]]
+	FeatureTitle = "Submerged steam-jacketed pumps"
+	FeatureDescription = "Carries fluids that solidify at ambient temperature and must be heated in transit, e.g. molten sulfur, sulfur trioxide (SO₃)."
+	FeatureImage = "images/submerged-steam-jacketed-pumps.png"
+
+[[params.feature]]
+	FeatureTitle = "Submerged multi-stage pumps"
+	FeatureDescription = "Specially designed to give exceptionally high pressure heads."
+	FeatureImage = "images/submerged-multistage-pumps.png"
+
+[[params.feature]]
+	FeatureTitle = "Floor-mounted multi-stage pumps"
+	FeatureDescription = "Widely used to handle clean and contaminated water, scrubber water, and light chemicals."
+	FeatureImage = "images/floor-mounted-multistage-pumps.png"
+
+################### Pricing Columns (do not exceed 3) ####################
+
+# [[params.pricing]]
+# 	PricingTitle = "Starter"
+# 	PricingRate = "27"
+# 	ButtonCaption = "Get Early Access"
+# 	[[params.pricing.Features]]
+# 		Description = "Lorem ipsum is common text"
+# 	[[params.pricing.Features]]
+# 		Description = "Lorem ipsum is common text"
+# 	[[params.pricing.Features]]
+# 		Description = "Lorem ipsum is common text"
+# 	[[params.pricing.Features]]
+# 		Description = "Lorem ipsum is common text"
+
+# [[params.pricing]]
+# 	PricingTitle = "Professional"
+# 	PricingRate = "97"
+# 	ButtonCaption = "Get Earlier Access"
+# 	[[params.pricing.Features]]
+# 		Description = "Lorem ipsum is common text"
+# 	[[params.pricing.Features]]
+# 		Description = "Lorem ipsum is common text"
+# 	[[params.pricing.Features]]
+# 		Description = "Lorem ipsum is common text"
+# 	[[params.pricing.Features]]
+# 		Description = "Lorem ipsum is common text"
+
+# [[params.pricing]]
+# 	PricingTitle = "Business"
+# 	PricingRate = "147"
+# 	ButtonCaption = "Get Earliest Access"
+# 	[[params.pricing.Features]]
+# 		Description = "Lorem ipsum is common text"
+# 	[[params.pricing.Features]]
+# 		Description = "Lorem ipsum is common text"
+# 	[[params.pricing.Features]]
+# 		Description = "Lorem ipsum is common text"
+# 	[[params.pricing.Features]]
+# 		Description = "Lorem ipsum is common text"
