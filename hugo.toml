@@ -2,6 +2,7 @@ baseURL = 'https://entitypumps.com/'
 languageCode = 'en-gb'
 title = 'Entity Pumps by Entity Hydrodynamics'
 theme = 'agnes'
+publishDir = "docs"
 
 [params]
 	dateFormat = "Jan 2, 2023"
