@@ -152,16 +152,19 @@ publishDir = "docs"
 
 
 [[params.choice]]
+	Icon = "fa-indian-rupee-sign"
 	Title = "Reasonable pricing"
 	Description1 = "Our 500+ customers trust us to provide top-quality at the right price!"
 	Description2 = "We are in it together for the long run and want to do our best to see you and your projects succeed."
 
 [[params.choice]]
+	Icon = "fa-scale-balanced"
 	Title = "High quality standards"
 	Description1 = "We have a strict in-house Quality Control process. Nothing leaves our shop without an approved test certificate."
 	Description2 = "This has earned us stamps of approval from the likes of Department of Atomic Energy, ISRO, NTPC."
 
 [[params.choice]]
+	Icon = "fa-store"
 	Title = "One-stop-shop"
 	Description1 = "We have designed and developed more than 100 models of Centrifugal Pumps, for a variety of industries, in various materials of constructions."
 	Description2 = "You can count on us for timely after-sales service and spares."
