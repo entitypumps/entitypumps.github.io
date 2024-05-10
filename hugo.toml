@@ -42,7 +42,8 @@ publishDir = "docs"
 	LeadDescription2 = "We offer end-to-end services: right from pump design, manufacturing, testing, and installation to match your project's requirements."
 	ButtonCaption = "Email for a Free Consultation"
 	ButtonURL = "mailto:inbox@entitypumps.com"
-	FooterButtonCaption = "Email for Product Catalog"
+	CatalogButtonCaption = "Email for Product Catalog"
+	FooterButtonCaption = "Email for a Free Consultation"
 
 [[params.feature]]
 	FeatureTitle = "Self-aligned flange-mounted pumps"
@@ -84,6 +85,72 @@ publishDir = "docs"
 	FeatureDescription = "Widely used to handle clean and contaminated water, scrubber water, and light chemicals."
 	FeatureImage = "images/floor-mounted-multistage-pumps.png"
 
+
+[[params.markets]]
+	Title = "Indian Government"
+	[[params.markets.names]]
+		Name = "ISRO, Sriharikota, Andhra Pradesh"
+	[[params.markets.names]]
+		Name = "NTPC, Auraiya, Uttar Pradesh"
+	[[params.markets.names]]
+		Name = "Department of Atomic Energy, Chennai, Tamil Nadu"
+	[[params.markets.names]]
+		Name = "Indian Ordnance Factories, Pune, Maharashtra"
+
+[[params.markets]]
+	Title = "Large Indian Corporations"
+	[[params.markets.names]]
+		Name = "Aditya Birla Grasim Industries Limited, Harihar, Karnataka"
+	[[params.markets.names]]
+		Name = "Bajaj Auto, Aurangabad, Maharashtra"
+	[[params.markets.names]]
+		Name = "Tata Steel Limited, Jamshedpur, Jharkhand"
+
+[[params.markets]]
+	Title = "Overseas"
+	[[params.markets.names]]
+		Name = "New Halfa Sugar Factory, Sudan"
+	[[params.markets.names]]
+		Name = "Virunga Biotech Limited, Rwanda"
+	[[params.markets.names]]
+		Name = "Libyan Iron & Steel Company, Libya"
+	[[params.markets.names]]
+		Name = "SOFIM, Casablanca, Morocco"
+
+[[params.markets]]
+	Title = "Pharmaceutical and Chemical Industry"
+	[[params.markets.names]]
+		Name = "United Phosporous Limited (UPL), Bharuch, Gujarat"
+	[[params.markets.names]]
+		Name = "Lupin Limited, Mandideep, Madhya Pradesh"
+	[[params.markets.names]]
+		Name = "Dr Reddy’s Laboratories Limited, Vizag, Andra Pradesh"
+	[[params.markets.names]]
+		Name = "Shreeji Chemicals, Kenya, Africa"
+
+[[params.markets]]
+	Title = "Sugar, Distillery and Brewing Industry"
+	[[params.markets.names]]
+		Name = "Sudanese Sugar, Sudan"
+	[[params.markets.names]]
+		Name = "Chandika Distilleries Limited, Nepal"
+	[[params.markets.names]]
+		Name = "Shaw Wallace & Company, Hyderabad, Telangana"
+	[[params.markets.names]]
+		Name = "Patiala Distilleries & Manufacturers Limited, Patiala, Punjab"
+
+[[params.markets]]
+	Title = "Auto, Steel and Engineering Industry"
+	[[params.markets.names]]
+		Name = "Steel Authority of India Limited, Bhilai, Chhattisgarh"
+	[[params.markets.names]]
+		Name = "POSCO, Raigad, Maharashtra"
+	[[params.markets.names]]
+		Name = "Tesla Innovations, Navi Mumbai, Maharashtra"
+	[[params.markets.names]]
+		Name = "FAG Bearings India Limited, Vadodara, Gujarat"
+
+
 [[params.choice]]
 	Title = "Reasonable pricing"
 	Description1 = "Our 500+ customers trust us to provide top-quality at the right price!"
@@ -99,6 +166,7 @@ publishDir = "docs"
 	Description1 = "We have designed and developed more than 100 models of Centrifugal Pumps, for a variety of industries, in various materials of constructions."
 	Description2 = "You can count on us for timely after-sales service and spares."
 
+
 [[params.about]]
 	Title = "Ganesh Shridhar Kulkarni"
 	Description1 = "Mr. Kulkarni founded Entity Hydrodynamics in 1996, and leads the team with his 40+ years of experience in the pump manufacturing industry."
@@ -111,5 +179,5 @@ publishDir = "docs"
 
 [[params.about]]
 	Title = "Vinay Mukesh Patel"
-	Description1 = "Vinay has had a successful career in Information Technology since 2009, during which he as worked with clients of all sizes across the globe, on high-stakes projects."
+	Description1 = "Vinay has had a flourishing career in Information Technology since 2009, during which he worked with clients of all sizes across the globe, on high-stakes projects."
 	Description2 = "He experience helps us push our Global Marketing and Sales efforts and ensure that our Customers have a delightful experience – every single time!"
