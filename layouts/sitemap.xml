@@ -1,0 +1,19 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML -}}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {{- $baseURL := "https://entitypumps.com" -}}
+  <url>
+    <loc>{{ $baseURL }}</loc>
+    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  {{- $sections := slice "hero" "who-are-entity-pumps" "who-we-serve" "why-choose-entity-pumps" -}}
+  {{- range $sections -}}
+  <url>
+    <loc>{{ $baseURL }}#{{ . }}</loc>
+    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {{- end -}}
+</urlset>
