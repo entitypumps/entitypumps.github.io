@@ -36,15 +36,13 @@ publishDir = "docs"
 # 	FacebookURL = "https://facebook.com/podbharati"
 
 [params.content]
-	LeadTitle = "Top Quality Centrifugal Pumps"
+	LeadTitle = "Top Quality Centrifugal Pumps for your project"
 	HeroImage = "images/hero-image.png"
 	LeadDescription1 = "Entity Hydrodynamics has been serving over 500 businesses — in India and overseas — for 25+ years."
-	LeadDescription2 = "Offering end-to-end services: starting with pump design, manufacturing, testing, delivery and installation to match your project requirements."
-	ButtonCaption = "Email us for a free consultation for your project"
+	LeadDescription2 = "We offer end-to-end services: right from pump design, manufacturing, testing, and installation to match your project's requirements."
+	ButtonCaption = "Email for a Free Consultation"
 	ButtonURL = "mailto:inbox@entitypumps.com"
-	FooterButtonCaption = "Email us for Product Catalogs"
-
-################### Feature Columns (do not exceed 4) ####################
+	FooterButtonCaption = "Email for Product Catalog"
 
 [[params.feature]]
 	FeatureTitle = "Self-aligned flange-mounted pumps"
@@ -86,43 +84,32 @@ publishDir = "docs"
 	FeatureDescription = "Widely used to handle clean and contaminated water, scrubber water, and light chemicals."
 	FeatureImage = "images/floor-mounted-multistage-pumps.png"
 
-################### Pricing Columns (do not exceed 3) ####################
+[[params.choice]]
+	Title = "Reasonable pricing"
+	Description1 = "Our 500+ customers trust us to provide top-quality at the right price!"
+	Description2 = "We are in it together for the long run and want to do our best to see you and your projects succeed."
 
-# [[params.pricing]]
-# 	PricingTitle = "Starter"
-# 	PricingRate = "27"
-# 	ButtonCaption = "Get Early Access"
-# 	[[params.pricing.Features]]
-# 		Description = "Lorem ipsum is common text"
-# 	[[params.pricing.Features]]
-# 		Description = "Lorem ipsum is common text"
-# 	[[params.pricing.Features]]
-# 		Description = "Lorem ipsum is common text"
-# 	[[params.pricing.Features]]
-# 		Description = "Lorem ipsum is common text"
+[[params.choice]]
+	Title = "High quality standards"
+	Description1 = "We have a strict in-house Quality Control process. Nothing leaves our shop without an approved test certificate."
+	Description2 = "This has earned us stamps of approval from the likes of Department of Atomic Energy, ISRO, NTPC."
 
-# [[params.pricing]]
-# 	PricingTitle = "Professional"
-# 	PricingRate = "97"
-# 	ButtonCaption = "Get Earlier Access"
-# 	[[params.pricing.Features]]
-# 		Description = "Lorem ipsum is common text"
-# 	[[params.pricing.Features]]
-# 		Description = "Lorem ipsum is common text"
-# 	[[params.pricing.Features]]
-# 		Description = "Lorem ipsum is common text"
-# 	[[params.pricing.Features]]
-# 		Description = "Lorem ipsum is common text"
+[[params.choice]]
+	Title = "One-stop-shop"
+	Description1 = "We have designed and developed more than 100 models of Centrifugal Pumps, for a variety of industries, in various materials of constructions."
+	Description2 = "You can count on us for timely after-sales service and spares."
 
-# [[params.pricing]]
-# 	PricingTitle = "Business"
-# 	PricingRate = "147"
-# 	ButtonCaption = "Get Earliest Access"
-# 	[[params.pricing.Features]]
-# 		Description = "Lorem ipsum is common text"
-# 	[[params.pricing.Features]]
-# 		Description = "Lorem ipsum is common text"
-# 	[[params.pricing.Features]]
-# 		Description = "Lorem ipsum is common text"
-# 	[[params.pricing.Features]]
-# 		Description = "Lorem ipsum is common text"
+[[params.about]]
+	Title = "Ganesh Shridhar Kulkarni"
+	Description1 = "Mr. Kulkarni founded Entity Hydrodynamics in 1996, and leads the team with his 40+ years of experience in the pump manufacturing industry."
+	Description2 = "He is a well-respected leader and mentor of our team. And, will bring all his experience as an expert Pump Designer and Manufacturer to bear on any orders we undertake."
+
+[[params.about]]
+	Title = "Vijay Mohan Jalihal"
+	Description1 = "Mr. Jalihal is involved in pump and mechanical transmission industry since 1988, first as DGM of Kirloskar Ebara Pumps and then as MD of KTR Couplings' India manufacturing unit."
+	Description2 = "His experience with Quality Control and Project Execution helps us deliver top-quality products, on time."
+
+[[params.about]]
+	Title = "Vinay Mukesh Patel"
+	Description1 = "Vinay has had a successful career in Information Technology since 2009, during which he as worked with clients of all sizes across the globe, on high-stakes projects."
+	Description2 = "He experience helps us push our Global Marketing and Sales efforts and ensure that our Customers have a delightful experience – every single time!"
