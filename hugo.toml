@@ -7,7 +7,7 @@ publishDir = "docs"
 [params]
 	dateFormat = "Jan 2, 2023"
 	authorName = "Entity Hydrodynamics"
-	google_analytics_id = "GA-"
+	googleAnalyticsId = "G-188JGKPFWD"
 
 # [menu]
 # 	[[menu.main]]
