@@ -175,17 +175,17 @@ disableKinds = ['taxonomy', 'term']
 [[params.about]]
 	Title = "Ganesh Shridhar Kulkarni"
 	Image = "images/gsk.jpeg"
-	Description1 = "Mr. Kulkarni founded Entity Hydrodynamics in 1996, and leads the team with his 40+ years of experience in the pump manufacturing industry."
-	Description2 = "He is a well-respected leader and mentor of our team. And, will bring all his experience as an expert Pump Designer and Manufacturer to bear on any orders we undertake."
+	Description1 = "Mr. Kulkarni founded Entity Hydrodynamics in 1996, and has 40+ years of experience in the pump manufacturing industry."
+	Description2 = "He is a respected leader and mentor of our team. Mr. Kulkarni will bring all his experience as an expert Pump Designer and Manufacturer to bear on any orders we undertake."
 
 [[params.about]]
 	Title = "Vijay Mohan Jalihal"
 	Image = "images/vmj.jpeg"
 	Description1 = "Mr. Jalihal is involved in pump and mechanical transmission industry since 1988, first as DGM of Kirloskar Ebara Pumps and then as MD of KTR Couplings' India manufacturing unit."
-	Description2 = "His experience with Quality Control and Project Execution helps us deliver top-quality products, on time."
+	Description2 = "His experience with Quality Control and Project Execution helps us deliver top-quality products on time."
 
 [[params.about]]
 	Title = "Vinay Mukesh Patel"
 	Image = "images/vmp.jpeg"
-	Description1 = "Vinay has had a flourishing career in Information Technology since 2009, during which he worked with clients of all sizes across the globe, on high-stakes projects."
+	Description1 = "Vinay has had a flourishing career in Information Technology since 2009, during which he worked on high-stakes projects with clients of all sizes across the globe."
 	Description2 = "His experience helps us push our Global Marketing and Sales efforts and ensure that our Customers have a delightful experience – every single time!"
