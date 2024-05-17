@@ -6,9 +6,14 @@
 							<h1 class="hero-title h2-mobile mt-0 is-revealing">{{ .Site.Params.Content.LeadTitle | markdownify }}</h1>
 							<p class="hero-paragraph is-revealing">{{ .Site.Params.Content.LeadDescription1 | markdownify }}</p>
 							<p class="hero-paragraph is-revealing">{{ .Site.Params.Content.LeadDescription2 | markdownify }}</p>
-							{{ if .Site.Params.Content.ButtonCaption }}
-							<p class="hero-cta is-revealing"><a class="button button-primary button-shadow" href="{{ .Site.Params.Content.ButtonURL}}">{{ .Site.Params.Content.ButtonCaption | markdownify }}</a></p>
-							{{ end }}
+							<p class="hero-cta is-revealing">
+								<a class="button button-primary button-shadow" href="{{ .Site.Params.Content.ButtonURL}}">{{ .Site.Params.Content.ButtonCaption | markdownify }}</a>
+							</p>
+							<p class="hero-cta is-revealing">
+								<a aria-label="Chat on WhatsApp" href="https://wa.me/918788546912">
+									<img style="display: inline-flex;" alt="Chat on WhatsApp" src="images/WhatsAppButtonGreenMedium.svg" />
+								</a>
+							</p>
 						</div>
 						<div class="hero-illustration is-revealing" style="margin-top: 0px;">
 							<div class="button-shadow">
@@ -18,11 +23,11 @@
 					</div>
 				</div>
 			</section>
-			<section class="features section text-center">
-				<div class="section-square"></div>
+			<section id="catalog" class="features section text-center">
 				<div class="container">
 					<div class="features-inner section-inner">
-                        <div class="features-wrap">
+                        <h2 class="section-title mt-0 text-center">Our top products</h2>
+						<div class="features-wrap">
 							{{ range site.Params.feature }}
                             <div class="feature is-revealing">
 								<div class="feature-inner">
@@ -39,7 +44,9 @@
 				</div>
 			</section>
 			<section class="section text-center">
-				<p class="hero-cta is-revealing"><a class="button button-primary button-shadow" href="{{ .Site.Params.Content.ButtonURL}}">{{ .Site.Params.Content.CatalogButtonCaption | markdownify }}</a></p>
+				<p class="hero-cta is-revealing">
+					<a class="button button-primary button-shadow" href="{{ .Site.Params.Content.ButtonURL}}">{{ .Site.Params.Content.CatalogButtonCaption | markdownify }}</a>
+				</p>
 			</section>
 			<section id ="who-we-serve" class="section">
 				<div class="section-square"></div>
@@ -123,6 +130,11 @@
                         </div>
                     </div>
 					<p class="hero-cta is-revealing text-center"><a class="button button-primary button-shadow" href="{{ .Site.Params.Content.ButtonURL}}">{{ .Site.Params.Content.ButtonCaption | markdownify }}</a></p>
+					<p class="hero-cta is-revealing text-center">
+						<a aria-label="Chat on WhatsApp" href="https://wa.me/918788546912">
+							<img style="display: inline-flex;" alt="Chat on WhatsApp" src="images/WhatsAppButtonGreenMedium.svg" />
+						</a>
+					</p>
 				</div>
 			</section>
 {{ end }}
