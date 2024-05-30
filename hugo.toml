@@ -9,7 +9,7 @@ disableKinds = ['taxonomy', 'term']
 [params]
 	dateFormat = "Jan 2, 2023"
 	authorName = "Entity Hydrodynamics"
-	googleAnalyticsId = "G-188JGKPFWD"
+	googleAnalyticsId = "AW-979697264"
 
 # [menu]
 # 	[[menu.main]]
@@ -42,10 +42,10 @@ disableKinds = ['taxonomy', 'term']
 	HeroImage = "images/hero-image.png"
 	LeadDescription1 = "Entity Hydrodynamics has been serving over 500 businesses — in India and overseas — for 25+ years."
 	LeadDescription2 = "We offer end-to-end services: right from pump design, manufacturing, testing, and installation to match your project's requirements."
-	ButtonCaption = "Email for a Free Consultation"
+	ButtonCaption = "Email us for same-day Quote"
 	ButtonURL = "mailto:inbox@entitypumps.com"
-	CatalogButtonCaption = "Email for Product Catalog"
-	FooterButtonCaption = "Email for a Free Consultation"
+	CatalogButtonCaption = "Email us for Product Catalog"
+	FooterButtonCaption = "Email us for Free Consultation"
 
 [[params.feature]]
 	FeatureTitle = "Self-aligned flange-mounted pumps"
