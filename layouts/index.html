@@ -7,10 +7,10 @@
 							<p class="hero-paragraph is-revealing">{{ .Site.Params.Content.LeadDescription1 | markdownify }}</p>
 							<p class="hero-paragraph is-revealing">{{ .Site.Params.Content.LeadDescription2 | markdownify }}</p>
 							<p class="hero-cta is-revealing">
-								<a class="button button-primary button-shadow" href="{{ .Site.Params.Content.ButtonURL}}">{{ .Site.Params.Content.ButtonCaption | markdownify }}</a>
+								<a class="button button-primary button-shadow" href="{{ .Site.Params.Content.ButtonURL}}" onclick="return gtagReportConversion('{{ .Site.Params.Content.ButtonURL}}', 'EMAIL')">{{ .Site.Params.Content.ButtonCaption | markdownify }}</a>
 							</p>
 							<p class="hero-cta is-revealing">
-								<a aria-label="Chat on WhatsApp" href="https://wa.me/918788546912" onclick="return gtagSendEvent('https://wa.me/918788546912')">
+								<a aria-label="Chat on WhatsApp" href="https://wa.me/918788546912" onclick="return gtagReportConversion('https://wa.me/918788546912', 'WA')">
 									<img style="display: inline-flex;" alt="Chat on WhatsApp" src="images/WhatsAppButtonGreenMedium.svg" />
 								</a>
 							</p>
@@ -45,7 +45,7 @@
 			</section>
 			<section class="section text-center">
 				<p class="hero-cta is-revealing">
-					<a class="button button-primary button-shadow" href="{{ .Site.Params.Content.ButtonURL}}">{{ .Site.Params.Content.CatalogButtonCaption | markdownify }}</a>
+					<a class="button button-primary button-shadow" href="{{ .Site.Params.Content.ButtonURL}}" onclick="return gtagReportConversion('{{ .Site.Params.Content.ButtonURL}}', 'EMAIL')">{{ .Site.Params.Content.CatalogButtonCaption | markdownify }}</a>
 				</p>
 			</section>
 			<section id ="who-we-serve" class="section">
@@ -117,7 +117,7 @@
 									<div class="pricing-table-main">
 										<div class="feature-icon">
 											<img src="{{ .Image }}" style="border-radius: 1.5em; border: 0.3em solid antiquewhite">
-										</div>	
+										</div>
 										<div class="pricing-table-header is-revealing">
 											<div class="pricing-table-title mt-12 mb-8 h4">{{ .Title }}</div>
                                         </div>
@@ -129,9 +129,11 @@
 							{{ end }}
                         </div>
                     </div>
-					<p class="hero-cta is-revealing text-center"><a class="button button-primary button-shadow" href="{{ .Site.Params.Content.ButtonURL}}">{{ .Site.Params.Content.FooterButtonCaption | markdownify }}</a></p>
 					<p class="hero-cta is-revealing text-center">
-						<a aria-label="Chat on WhatsApp" href="https://wa.me/918788546912">
+						<a class="button button-primary button-shadow" href="{{ .Site.Params.Content.ButtonURL}}" onclick="return gtagReportConversion('{{ .Site.Params.Content.ButtonURL}}', 'EMAIL')">{{ .Site.Params.Content.FooterButtonCaption | markdownify }}</a>
+					</p>
+					<p class="hero-cta is-revealing text-center">
+						<a aria-label="Chat on WhatsApp" href="https://wa.me/918788546912" onclick="return gtagReportConversion('https://wa.me/918788546912', 'WA')"></a>
 							<img style="display: inline-flex;" alt="Chat on WhatsApp" src="images/WhatsAppButtonGreenMedium.svg" />
 						</a>
 					</p>

@@ -9,44 +9,44 @@
 		<!-- google analytics  tag (gtag.js)-->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-979697264"></script>
 		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'AW-979697264');
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'AW-979697264');
+			
+			function gtagReportConversion(url, conversionType) {
+				const callback = () => {
+					if (url) {
+						window.location = url;
+					}
+				};
+				const conversionIds = {
+					EMAIL: 'AW-979697264/R3PwCKvm5LUZEPD8k9MD',
+					WA: 'AW-979697264/XUCaCIj55LUZEPD8k9MD'
+				};
+				const conversionId = conversionIds[conversionType];
+				gtag('event', 'conversion', {
+					'send_to': conversionId,
+					'event_callback': callback
+				});
+				return false;
+			}
 		</script>
 		
 		
 		
 		<title>Entity Centrifugal Pumps by Entity Hydrodynamics</title>
-
+		
 		
 		<meta name="description" content="Top Quality Centrifugal Pumps for your projects. Entity Hydrodynamics has been serving over 500 businesses — in India and overseas — for 25+ years.">
 		
-
+		
 		<link href="https://fonts.googleapis.com/css?family=Hind+Vadodara:400,700|Mukta:500,700" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="/css/style.css">
 		<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 		<script src="https://kit.fontawesome.com/2f2235bb9e.js" crossorigin="anonymous"></script>
-
-		
-		<script>
-			
-			
-			function gtagSendEvent(url) {
-				var callback = function () {
-					if (typeof url === 'string') {
-						window.location = url;
-					}
-				};
-				gtag('event', 'conversion_event_contact', {
-					'event_callback': callback,
-					'event_timeout': 2000,
-				});
-				return false;
-			}
-		</script>
 	</head>
+	
 	<body class="is-boxed has-animations">
 		<div class="body-wrap boxed-container">		
 				<header class="site-header">
@@ -70,10 +70,10 @@
 							<p class="hero-paragraph is-revealing">Entity Hydrodynamics has been serving over 500 businesses — in India and overseas — for 25+ years.</p>
 							<p class="hero-paragraph is-revealing">We offer end-to-end services: right from pump design, manufacturing, testing, and installation to match your project&rsquo;s requirements.</p>
 							<p class="hero-cta is-revealing">
-								<a class="button button-primary button-shadow" href="mailto:inbox@entitypumps.com">Email us for same-day Quote</a>
+								<a class="button button-primary button-shadow" href="mailto:inbox@entitypumps.com" onclick="return gtagReportConversion('mailto:inbox@entitypumps.com', 'EMAIL')">Email us for same-day Quote</a>
 							</p>
 							<p class="hero-cta is-revealing">
-								<a aria-label="Chat on WhatsApp" href="https://wa.me/918788546912" onclick="return gtagSendEvent('https://wa.me/918788546912')">
+								<a aria-label="Chat on WhatsApp" href="https://wa.me/918788546912" onclick="return gtagReportConversion('https://wa.me/918788546912', 'WA')">
 									<img style="display: inline-flex;" alt="Chat on WhatsApp" src="images/WhatsAppButtonGreenMedium.svg" />
 								</a>
 							</p>
@@ -178,7 +178,7 @@
 			</section>
 			<section class="section text-center">
 				<p class="hero-cta is-revealing">
-					<a class="button button-primary button-shadow" href="mailto:inbox@entitypumps.com">Email us for Product Catalog</a>
+					<a class="button button-primary button-shadow" href="mailto:inbox@entitypumps.com" onclick="return gtagReportConversion('mailto:inbox@entitypumps.com', 'EMAIL')">Email us for Product Catalog</a>
 				</p>
 			</section>
 			<section id ="who-we-serve" class="section">
@@ -499,7 +499,7 @@
 									<div class="pricing-table-main">
 										<div class="feature-icon">
 											<img src="images/gsk.jpeg" style="border-radius: 1.5em; border: 0.3em solid antiquewhite">
-										</div>	
+										</div>
 										<div class="pricing-table-header is-revealing">
 											<div class="pricing-table-title mt-12 mb-8 h4">Ganesh Shridhar Kulkarni</div>
                                         </div>
@@ -514,7 +514,7 @@
 									<div class="pricing-table-main">
 										<div class="feature-icon">
 											<img src="images/vmj.jpeg" style="border-radius: 1.5em; border: 0.3em solid antiquewhite">
-										</div>	
+										</div>
 										<div class="pricing-table-header is-revealing">
 											<div class="pricing-table-title mt-12 mb-8 h4">Vijay Mohan Jalihal</div>
                                         </div>
@@ -529,7 +529,7 @@
 									<div class="pricing-table-main">
 										<div class="feature-icon">
 											<img src="images/vmp.jpeg" style="border-radius: 1.5em; border: 0.3em solid antiquewhite">
-										</div>	
+										</div>
 										<div class="pricing-table-header is-revealing">
 											<div class="pricing-table-title mt-12 mb-8 h4">Vinay Mukesh Patel</div>
                                         </div>
@@ -541,9 +541,11 @@
 							
                         </div>
                     </div>
-					<p class="hero-cta is-revealing text-center"><a class="button button-primary button-shadow" href="mailto:inbox@entitypumps.com">Email us for Free Consultation</a></p>
 					<p class="hero-cta is-revealing text-center">
-						<a aria-label="Chat on WhatsApp" href="https://wa.me/918788546912">
+						<a class="button button-primary button-shadow" href="mailto:inbox@entitypumps.com" onclick="return gtagReportConversion('mailto:inbox@entitypumps.com', 'EMAIL')">Email us for Free Consultation</a>
+					</p>
+					<p class="hero-cta is-revealing text-center">
+						<a aria-label="Chat on WhatsApp" href="https://wa.me/918788546912" onclick="return gtagReportConversion('https://wa.me/918788546912', 'WA')"></a>
 							<img style="display: inline-flex;" alt="Chat on WhatsApp" src="images/WhatsAppButtonGreenMedium.svg" />
 						</a>
 					</p>
