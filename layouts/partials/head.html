@@ -5,12 +5,15 @@
 		{{ with .Site.Params}}
 		{{ "<!-- google analytics  tag (gtag.js)-->" | safeHTML }}
 		<script async src="https://www.googletagmanager.com/gtag/js?id={{ .googleAnalyticsId }}"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id={{ .googleAdsId }}"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
+
 			gtag('config', '{{ .googleAnalyticsId }}');
-			
+			gtag('config', '{{ .googleAdsId }}');
+
 			function gtagReportConversion(url, conversionType) {
 				const callback = () => {
 					if (url) {

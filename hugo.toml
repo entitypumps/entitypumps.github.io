@@ -9,7 +9,8 @@ disableKinds = ['taxonomy', 'term']
 [params]
 	dateFormat = "Jan 2, 2023"
 	authorName = "Entity Hydrodynamics"
-	googleAnalyticsId = "AW-979697264"
+	googleAnalyticsId = "G-188JGKPFWD"
+	googleAdsId = "AW-979697264"
 
 # [menu]
 # 	[[menu.main]]
